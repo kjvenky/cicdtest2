@@ -3,13 +3,14 @@ branch-defaults:
     environment: dev-env
     group_suffix: null
   master:
-    environment: dev-env
+    environment: null
+    group_suffix: null
 global:
   application_name: cicd-test
   branch: null
   default_ec2_keyname: aws-cicd
   default_platform: Ruby 2.3 (Passenger Standalone)
   default_region: ap-southeast-1
-  profile: transin
+  profile: null
   repository: null
   sc: git
